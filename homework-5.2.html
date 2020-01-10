@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>作业5问题2</title>
+    </head>
+    <body>
+        <div>
+            <form action="djijdoe" method="GET">
+                <div>
+                    邮箱：<input type="email" name="email" placeholder="必须填写" required />
+                </div>
+                <div>
+                    数字：<input type="number" name="number" min="0" max="100" step="2" placeholder="0~100的偶数" />
+                </div>
+                <div>
+                    城市：<input name="city" list="city" />
+                    <datalist id="city">
+                        <option value="北京"></option>
+                        <option value="上海"></option>
+                        <option value="广州"></option>
+                        <option value="深圳"></option>
+                    </datalist>
+                </div>
+                <div>
+                    <button type="submit">提交</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
